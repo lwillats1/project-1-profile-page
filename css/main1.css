@@ -1,4 +1,4 @@
-html,body{margin: 12;}
+html,body{margin:0;}
 
 *, *::before, *::after {box-sizing: border-box;}
 
@@ -13,11 +13,25 @@ h3{color:3A2A47;}
 
 
 .title{
-    align-content: center;
+    align-content:center;
     background-image: url("../images/shadowheart.title.jpg");
     background-position: center;
     background-size: cover;
-    font-size:200;}
+    display: flex;
+    flex-wrap: wrap;
+    font-size:200;
+    justify-content:left;
+    height: 115vh;
+    text-align: left;
+}
+
+.toolbar{
+    align-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 100;
+    justify-content: center;
+}
 
 /*FIND FONT*/
 .about{
@@ -32,6 +46,6 @@ h3{color:3A2A47;}
     font-size: 40;
     justify-content: center;
     height: 180vh;
-    min-height: 1000px;
+    min-height:2000px;
     text-align: center;
 }
