@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+IT+Moderna:wght@100..400&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Moon+Dance&family=Playwrite+IT+Moderna:wght@100..400&display=swap');
+
 /* Browser/Display fixes */
 html,
 body{
@@ -12,6 +16,21 @@ body{
 /*These selectors target the html elements and will apply to every itertion of those elements*/
 body {
     color: hotpink;
+    font-family: "Playwrite IT Moderna", cursive, sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <100>;
+    font-style: normal;
+}
+
+h1,
+h2,
+h3, 
+h4,
+h5,
+h6 {
+    font-family: "Moon Dance", cursive;
+    font-weight: 400;
+    font-style: normal;
 }
 
 h1 {
@@ -62,7 +81,6 @@ a:hover {
 }
 
 .special {
-    font-family: sans-serif;
     font-style: italic;
 }
 
